@@ -823,6 +823,13 @@ declare namespace CodeMirror {
 
         /** Optional value to be used in conjunction with CodeMirror’s placeholder add-on. */
         placeholder?: string;
+        
+        // addons 
+        matchBrackets?: boolean;
+        
+        styleActiveLine?: boolean;
+
+        autoCloseBrackets?: boolean;
     }
 
     interface TextMarkerOptions {
